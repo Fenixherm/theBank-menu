@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+    /* ao colocar nesas porcentagem, 1rem = 10px */
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.cabecalho .link-logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .link-logo h1 {
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu ul a:hover{
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.menu ul .cadastro a {
+    background-color: #5BC241;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    font-weight: 300;
+}
+
+.menu ul .cadastro a:hover{
+    background-color: #5bc241b0;
+}

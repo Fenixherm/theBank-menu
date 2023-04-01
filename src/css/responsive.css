@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .cabecalho .link-logo h1{
+        font-size: 4rem;
+    }
+    
+    .menu ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .menu ul li {
+        margin-bottom: 50px;
+    }
+
+    .menu ul li a {
+        padding: 17px 70px;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .menu ul .cadastro a{
+        padding: 25px 50px;
+        font-size: 2rem;
+    }
+
+    .menu li:last-child {
+        margin-top: 1rem;
+    }
+}
